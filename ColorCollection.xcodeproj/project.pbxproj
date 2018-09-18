@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4F7E962150950700DE08DC /* TypeName+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F7E952150950600DE08DC /* TypeName+Extensions.swift */; };
+		3E4F7E982150959B00DE08DC /* CoreDataClient_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F7E972150959B00DE08DC /* CoreDataClient_v1.swift */; };
+		3E4F7E9A215095B300DE08DC /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F7E99215095B300DE08DC /* CoreDataClient.swift */; };
+		3E4F7E9C2150D18900DE08DC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F7E9B2150D18900DE08DC /* UIColor+Extensions.swift */; };
+		3E4F7E9E2150F56D00DE08DC /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F7E9D2150F56D00DE08DC /* CGFloat+Extensions.swift */; };
 		4D64A44B1AD471B80069B5B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A44A1AD471B80069B5B6 /* AppDelegate.swift */; };
 		4D64A44E1AD471B80069B5B6 /* ColorCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A44C1AD471B80069B5B6 /* ColorCollection.xcdatamodeld */; };
 		4D64A4531AD471B80069B5B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D64A4511AD471B80069B5B6 /* Main.storyboard */; };
@@ -16,7 +21,6 @@
 		4D64A46E1AD471F00069B5B6 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A46D1AD471F00069B5B6 /* ColorsViewController.swift */; };
 		4D64A4701AD472850069B5B6 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A46F1AD472850069B5B6 /* ColorCell.swift */; };
 		4D64A4721AD4739C0069B5B6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A4711AD4739C0069B5B6 /* Color.swift */; };
-		4D64A4741AD476F50069B5B6 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A4731AD476F50069B5B6 /* CoreDataStackManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E4F7E952150950600DE08DC /* TypeName+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypeName+Extensions.swift"; sourceTree = "<group>"; };
+		3E4F7E972150959B00DE08DC /* CoreDataClient_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataClient_v1.swift; sourceTree = "<group>"; };
+		3E4F7E99215095B300DE08DC /* CoreDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
+		3E4F7E9B2150D18900DE08DC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		3E4F7E9D2150F56D00DE08DC /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		4D64A4451AD471B80069B5B6 /* ColorCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D64A4491AD471B80069B5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D64A44A1AD471B80069B5B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +52,6 @@
 		4D64A46D1AD471F00069B5B6 /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		4D64A46F1AD472850069B5B6 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		4D64A4711AD4739C0069B5B6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		4D64A4731AD476F50069B5B6 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +96,16 @@
 				4D64A46D1AD471F00069B5B6 /* ColorsViewController.swift */,
 				4D64A46F1AD472850069B5B6 /* ColorCell.swift */,
 				4D64A4711AD4739C0069B5B6 /* Color.swift */,
-				4D64A4731AD476F50069B5B6 /* CoreDataStackManager.swift */,
+				3E4F7E99215095B300DE08DC /* CoreDataClient.swift */,
+				3E4F7E972150959B00DE08DC /* CoreDataClient_v1.swift */,
 				4D64A44A1AD471B80069B5B6 /* AppDelegate.swift */,
 				4D64A4511AD471B80069B5B6 /* Main.storyboard */,
 				4D64A4541AD471B80069B5B6 /* Images.xcassets */,
 				4D64A4561AD471B80069B5B6 /* LaunchScreen.xib */,
 				4D64A44C1AD471B80069B5B6 /* ColorCollection.xcdatamodeld */,
+				3E4F7E952150950600DE08DC /* TypeName+Extensions.swift */,
+				3E4F7E9B2150D18900DE08DC /* UIColor+Extensions.swift */,
+				3E4F7E9D2150F56D00DE08DC /* CGFloat+Extensions.swift */,
 				4D64A4481AD471B80069B5B6 /* Supporting Files */,
 			);
 			path = ColorCollection;
@@ -176,11 +188,11 @@
 					4D64A4441AD471B80069B5B6 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = 92UFAG2RNG;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0940;
 					};
 					4D64A45C1AD471B80069B5B6 = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0940;
 						TestTargetID = 4D64A4441AD471B80069B5B6;
 					};
 				};
@@ -229,12 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4F7E962150950700DE08DC /* TypeName+Extensions.swift in Sources */,
 				4D64A44B1AD471B80069B5B6 /* AppDelegate.swift in Sources */,
+				3E4F7E982150959B00DE08DC /* CoreDataClient_v1.swift in Sources */,
 				4D64A4701AD472850069B5B6 /* ColorCell.swift in Sources */,
 				4D64A46E1AD471F00069B5B6 /* ColorsViewController.swift in Sources */,
 				4D64A4721AD4739C0069B5B6 /* Color.swift in Sources */,
+				3E4F7E9E2150F56D00DE08DC /* CGFloat+Extensions.swift in Sources */,
 				4D64A44E1AD471B80069B5B6 /* ColorCollection.xcdatamodeld in Sources */,
-				4D64A4741AD476F50069B5B6 /* CoreDataStackManager.swift in Sources */,
+				3E4F7E9C2150D18900DE08DC /* UIColor+Extensions.swift in Sources */,
+				3E4F7E9A215095B300DE08DC /* CoreDataClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +388,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -387,7 +404,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -407,7 +425,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCollection.app/ColorCollection";
 			};
 			name = Debug;
@@ -424,7 +443,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Udacity.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCollection.app/ColorCollection";
 			};
 			name = Release;

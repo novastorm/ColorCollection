@@ -92,7 +92,7 @@ class CoreDataStackManager {
       error = NSError(domain: "Color Collection", code: 9999, userInfo: nil)
       
       // Left in for development development.
-      NSLog("Unresolved error \(error), \(error!.userInfo)")
+      NSLog("Unresolved error \(error.debugDescription), \(error!.userInfo)")
       abort()
     } catch {
       fatalError()
@@ -128,7 +128,7 @@ class CoreDataStackManager {
           try context.save()
         } catch let error1 as NSError {
           error = error1
-          NSLog("Unresolved error \(error), \(error!.userInfo)")
+          NSLog("Unresolved error \(error.debugDescription), \(error!.userInfo)")
           abort()
         }
       }
