@@ -12,6 +12,8 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
+    var coreDataClient = CoreDataClient_v1(container: NSPersistentContainer(name: "ColorCollection"))
+    
   var window: UIWindow?
   
 }
